@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="left">
+            <a href="/main.html">MAIN</a>
+            <a href="/jobSearch.html">JOB SEARCH</a>
+            <a href="/adminPanel.html">ADMIN</a>
+            <a href="/manageApplicants.html">MANAGE APPLICANTS</a>
+        </div>
+        <div class="right">
+            <div class="head1">
+                <h1>Manage Applicants</h1>
+                <hr>
+            </div>
+            <fieldset>
+                <legend>Search</legend>
+                <input type="search" placeholder="Name, Email, etc..." class="searchInput">
+            </fieldset>
+            <table>
+                <thead>
+                    <th>Applicant</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                    <th>Phone number</th>
+                    <th>Status</th>
+                    <th>Job</th>
+                    <th>Actions</th>
+                </thead>
+                <tbody class="box2">
+    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/scripts7/applicantsMain.js"></script>
+</body>
+</html>

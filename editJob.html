@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head1">
+        <h1>Edit Job</h1>
+        <a href="/adminPanel.html">Back to Admin panel</a>
+        <hr>
+    </div>
+    <form action="" class="editJobForm">
+        <input type="text" placeholder="Title:" name="editTitle">
+        <input type="date" placeholder="Closing Data:" name="editClosingDate">
+        <select id="" name="editLevel" class="select1">
+            <option value="Junior">Junior</option>
+            <option value="Middle">Middle</option>
+            <option value="Senior">Senior</option>
+        </select>
+        <select id="" name="editCategory" class="select1">
+            <option value="Frontend">Front-End</option>
+            <option value="Backend">Back-End</option>
+            <option value="Fullstack">Full-Stack</option>
+        </select>
+        <input type="tel" placeholder="Phone number:" name="editPhone">
+        <input type="text" placeholder="Location:" name="editLocation">
+        <input type="text" placeholder="Description:" name="editDescription">
+        <button type="submit">Save</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/scripts6/editJobDom.js"></script>
+</body>
+</html>

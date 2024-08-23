@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Candara;
+}
+.left{
+    padding: 25px 25px;
+    height: 590px;
+}
+.left a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    padding: 10px 10px;
+    display: block;
+}
+.left a:hover{
+    border-radius: 20px;
+    background-color: rgb(64, 64, 255);
+    box-shadow: 0px 0px 10px blue;
+    color: white;
+    transition: 0.5s;
+}
+.right{
+    width: 1200px;
+    padding: 10px 20px;
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.head1 a{
+    background-color: rgb(62, 62, 253);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0px 0px 5px black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.head1 a:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(0, 0, 192);
+    transition: 0.5s;
+}
+h1{
+    margin-top: 10px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+fieldset{
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+fieldset input,select{
+    border: none;
+    font-size: 19px;
+    margin-right: 20px;
+}
+
+.select1{
+    border: 1px solid black;
+    margin: 10px 0px;
+    width: 225px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.flexbox{
+    display: flex;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+tbody a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.s4_td8_1{
+    background-color: green;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 5px green;
+}
+.s4_td8_1:hover{
+    background-color: rgb(0, 90, 0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.s4_td8_2{
+    background-color: red;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 5px red;
+}
+.s4_td8_2:hover{
+    background-color: rgb(201, 0, 0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.s7_td7_1{
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px blue;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.s7_td7_1:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    transition: 0.5s;
+}
+.s7_td7_2{
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px green;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.s7_td7_2:hover{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    transition: 0.5s;
+}
+.s7_td7_3{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px red;
+    cursor: pointer;
+}
+.s7_td7_3:hover{
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    gap: 20px 20px;
+}
+.card{
+    box-shadow: 0px 0px 10px gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.card div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card span{
+    background-color: #707070;
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    background-color: green;
+    padding: 5px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px green;
+}
+.card a:hover{
+    background-color: blue;
+    box-shadow: 5px 5px 5px blue;
+    transition: 0.5s;
+}
+.block1{
+    margin-left: 480px;
+}
+.block1 div{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.box1{
+    margin-left: 10px;
+}
+.box1 h1,h2,h3,h4,h5,h6,p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form{
+    width: 230px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+form input,select{
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+form button{
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px green;
+}
+form button:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 0px 5px darkblue;
+    transition: 0.5s;
+}
